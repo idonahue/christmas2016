@@ -28,7 +28,7 @@ strong {
     background-color: #FFFEF7;
 }
 .navigation {
-    width: 100%;
+    width: 50%;
     height: 40px;
     // Styling
     font-family: 'Oswald', sans-serif;
@@ -57,6 +57,11 @@ strong {
 .navigation .button.active {
     background-color: #D75D4B;
 }
+.main-content-scroll {
+    overflow: auto;
+    height: calc(100vh - 40px);
+
+}
 .main-content {
     margin: 80px 115px;
 }
@@ -79,6 +84,9 @@ strong {
 .secondary-content {
     width: 50%;
     float: left;
+    position: fixed;
+    height: 100vh;
+    right: 0;
 }
 .secondary-content img  {
     width: 100%;

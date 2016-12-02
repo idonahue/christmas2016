@@ -20,6 +20,10 @@ strong {
     text-decoration: underline;
     background-color: yellow;
 }
+.note {
+    font-size: 15px;
+    font-style: italic;
+}
 
 
 .main-content-container {

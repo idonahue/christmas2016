@@ -58,9 +58,9 @@ strong {
     background-color: #D75D4B;
 }
 .main-content-scroll {
-    overflow: auto;
-    height: calc(100vh - 40px);
-
+    height: calc(100vh - 45px);
+    position: relative;
+    top: 5px;
 }
 .main-content {
     margin: 80px 115px;

@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: #2A384A;
     font-family: 'Domine', serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h1 {
@@ -12,6 +12,12 @@ h1 {
     font-size: 38px;
     line-height: 1.2;
     text-transform: uppercase;
+}
+a {
+    color: #2A384A;
+}
+a::visited {
+    color: #2A384A;
 }
 
 strong {

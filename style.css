@@ -2,7 +2,7 @@ body {
     margin: 0;
     color: #2A384A;
     font-family: 'Domine', serif;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 h1 {
@@ -13,11 +13,14 @@ h1 {
     line-height: 1.2;
     text-transform: uppercase;
 }
+h2 {
+    margin-top: 60px;
+}
 a {
-    color: #2A384A;
+    color: #465C7A;
 }
 a::visited {
-    color: #2A384A;
+    color: #465C7A;
 }
 
 strong {
@@ -29,6 +32,9 @@ strong {
 .note {
     font-size: 15px;
     font-style: italic;
+}
+.emoji img {
+    height: 20px;
 }
 
 
